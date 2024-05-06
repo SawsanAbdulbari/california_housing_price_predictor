@@ -6,8 +6,9 @@ image = "img.png"
 st.sidebar.image(image, caption='Image', use_column_width=True)
 st.sidebar.write("Final project for Python Machine Learning Diploma📊📈")
 # Signature
-st.sidebar.markdown("Made with :green_heart: by"
-                    "[Sawsan Abdulbari](https://www.linkedin.com/in/sawsan-abdulbari-5a4533104)")
+st.sidebar.markdown(
+    "Made with :green_heart: by "
+    "[Linda Marin](https://www.linkedin.com/in/lindamarin97/) & [Sawsan Abdulbari](https://www.linkedin.com/in/sawsanabdulbari/)")
 
 # Page header is set, making the purpose of the page clear to the user
 st.title(':house_buildings: :red[California Housing Price Predict]')
@@ -251,7 +252,9 @@ footer="""
 }
 </style>
 <div class="footer">
-<p>Developed with <span style='color:red;'>❤</span> by <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">Sawsan Abdulbari</a></p>
+<p>Developed with <span style='color:red;'>❤</span> by <a href="https://www.linkedin.com/in/lindamarin97/" target="_blank">Linda Marin </a> &
+<a href="https://www.linkedin.com/in/sawsanabdulbari/" target="_blank">Sawsan Abdulbari</a></p>
+
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
