@@ -11,7 +11,7 @@ st.sidebar.markdown(
     "[Linda Marin](https://www.linkedin.com/in/lindamarin97/) & [Sawsan Abdulbari](https://www.linkedin.com/in/sawsanabdulbari/)")
 
 # Page header is set, making the purpose of the page clear to the user
-st.title(':house_buildings: :red[California Housing Price Predict]')
+st.title(':house_buildings: :red[California Housing Price Predictor]')
 st.write("This application predicts the median house price in California based on input features.")
 
 # Here we load trained model and preprocessing pipeline to be used
