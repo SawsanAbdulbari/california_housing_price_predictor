@@ -20,7 +20,7 @@ st.sidebar.write("")
 st.sidebar.write("")
 st.sidebar.markdown(
     "Made with :green_heart: by "
-    "[Sawsan Abdulbari](https://www.linkedin.com/in/sawsan-abdulbari-5a4533104)")
+    "[Linda Marin](https://www.linkedin.com/in/lindamarin97/) & [Sawsan Abdulbari](https://www.linkedin.com/in/sawsanabdulbari/)")
 
 st.markdown("""
 This interactive app allows you to explore and 
@@ -63,15 +63,11 @@ if st.button('Show Median Prices Map'):
 st.header('About')
 st.markdown("""
 This app was created with :green_heart: 
-by :green[Sawsan Abdulbari] as Final project for Python Machine 
+by :green[Linda Marin & Sawsan Abdulbari] as Final project for Python Machine 
 Learning Diploma📊📈 to explore housing data and predictive modeling.
 For more information, contributions, or questions, 
-please visit my <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">LinkedIn</a> profile.
+please visit our <a href="https://www.linkedin.com/in/lindamarin97/" target="_blank">LinkedIn</a> profile.
 """, unsafe_allow_html=True)
-
-st.markdown("""**Acknowledgment:**
-A lot of gratitude to <span style="color:green; font-weight:bold;"> :green[Eng. Mostafa Othman] </span>
-For guidance through out the project.""", unsafe_allow_html=True)
 
 
 # Add a footer
@@ -100,7 +96,9 @@ footer="""
 }
 </style>
 <div class="footer">
-<p>Developed with <span style='color:red;'>❤</span> by <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">Sawsan Abdulbari</a></p>
+<p>Developed with <span style='color:red;'>❤</span> by <a href="https://www.linkedin.com/in/lindamarin97/" target="_blank">Linda Marin </a> &
+<a href="https://www.linkedin.com/in/sawsanabdulbari/" target="_blank">Sawsan Abdulbari</a></p>
+
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
